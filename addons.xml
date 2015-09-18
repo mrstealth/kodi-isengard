@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.filin.tv" name="[B][COLOR CFFFFFFF]Filin.tv[/COLOR][/B]" version="2.0.4" provider-name="mrstealth">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.xbmc.helpers" version="1.0.0"/>
+        <import addon="script.module.translit" version="1.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point= "xbmc.addon.metadata">
+        <summary>Browse and stream from filin.tv</summary>
+        <description>Enables watching streams on filin.tv that are flash enabled.</description>
+        <description>For personal use only</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="plugin.video.kinokong.net" name="Kinokong.net (UnifiedSearch)" version="1.0.1" provider-name="MrStealth">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.xbmc.helpers" version="2.0.0"/>
+    <import addon="script.module.translit" version="2.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" provides="video" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Kinokong.net</summary>
+    <description>For personal use only</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.mrstealth.fepcom.net" name="Fepcom.net (UnifiedSearch)" version="2.0.2" provider-name="mrstealth">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.xbmc.helpers" version="2.0.0"/>
+    <import addon="script.module.translit" version="2.0.0"/>
+    <import addon="script.module.favorites" version="2.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Fepcom.net</summary>
+    <description>For personal use only</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.mrstealth.nowfilms.ru" name="NowFilms.ru (UnifiedSearch)" version="2.0.5" provider-name="MrStealth">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.xbmc.helpers" version="2.0.0"/>
+    <import addon="script.module.translit" version="2.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" provides="video" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>NowFilms.ru</summary>
+    <description>For personal use only</description>
+    <platform>all</platform>
+    <broken>deprecated</broken>
+  </extension>
+</addon>
+
+<addon id="plugin.video.mrstealth.serialu.net" name="[B][COLOR CFFFFFFF]Serialu.net[/COLOR][/B]" version="2.0.0" provider-name="mrstealth">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.xbmc.helpers" version="2.0.0"/>
+    <import addon="script.module.translit" version="2.0.0"/>
+    <import addon="script.module.favorites" version="2.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Enables watching streams on serialu.net</summary>
+    <description>For personal use only</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.online-life.cc" name="Online-life.cc (UnifiedSearch)" version="1.0.2" provider-name="MrStealth">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.xbmc.helpers" version="1.0.0"/>
+    <import addon="script.module.translit" version="1.0.0"/>
+    <import addon="script.module.favorites" version="1.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Enables watching streams on online-life.cc</summary>
+    <description>For personal use only</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.uakino.net" name="Uakino.net (UnifiedSearch)" version="2.0.0" provider-name="MrStealth">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.xbmc.helpers" version="2.0.0"/>
+    <import addon="script.module.translit" version="2.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" provides="video" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Новинки кино, мультфильмы, сериалы</summary>
+    <description>For personal use only</description>
+    <platform>all</platform>
+    <broken>deprecated</broken>
+  </extension>
+</addon>
+
+<addon id="plugin.video.unified.search" name="Unified search" version="2.0.1" provider-name="mrstealth">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.xbmc.helpers" version="2.0.0"/>
+    <import addon="script.module.translit" version="2.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Unified search</summary>
+    <description>This addon can find any videos in your plugin collection, which supports unified search (For personal use only)</description>
+    <disclaimer lang="en"></disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.videokub.com" name="VideoKub.com" version="2.0.3" provider-name="mrstealth">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.xbmc.helpers" version="1.0.0"/>
+        <import addon="script.module.translit" version="1.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">>
+        <provides>video</provides>
+    </extension>
+    <extension point= "xbmc.addon.metadata">
+        <summary>VideoKub.com</summary>
+        <description>Видео Куб (http://videokub.com)</description>
+        <description>For personal use only</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="repository.mrstealth.isengard" name="Mrstealth XBMC Kodi Isengard" version="1.0.0" provider-name="mrstealth">
+	<extension point="xbmc.addon.repository" name="MrStealth XBMC Add-ons Repository">
+		<info compressed="false">https://raw.github.com/mrstealth/kodi-isengard/master/addons.xml</info>
+		<checksum>https://raw.github.com/mrstealth/kodi-isengard/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.github.com/mrstealth/kodi-isengard/master/zip/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install Add-ons from MrStealth add-on repository</summary>
+		<description>Download and install add-ons by mrstealth</description>
+		<disclaimer>Add-ons for home usage in Kodi</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id='script.module.favorites' name='Favorites for xbmc plugins' provider-name='mrstealth' version='2.0.0'>
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+  </requires>
+  <extension library="default.py" point="xbmc.service" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Favorites for xbmc plugins</summary>
+    <platform>all</platform>
+  </extension>
+  <extension point="xbmc.python.module" library="lib"/>
+</addon>
+
+<addon id='script.module.translit' version='2.0.0' name='Translit for xbmc plugins' provider-name='mrstealth'>
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+  </requires>
+  <extension point='xbmc.service' library="default.py" />
+  <extension point='xbmc.addon.metadata'>
+    <platform>all</platform>
+    <summary lang='en'>Translit for xbmc plugins.</summary>
+  </extension>
+  <extension point='xbmc.python.module' library='lib' />
+</addon>
+
+<addon id='script.module.xbmc.helpers' version='2.0.0' name='Xbmc helpers module based on Parsedom module' provider-name='mrstealth'>
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+  </requires>
+  <extension point='xbmc.addon.metadata'>
+    <platform>all</platform>
+    <summary lang='en'>XbmcHelpers based on Parsedom module.</summary>
+  </extension>
+  <extension point='xbmc.python.module' library='lib' />
+</addon>
+
+<addon id="skin.quartz" version="5.0.15" name="Quartz" provider-name="Pecinko">
+  <requires>
+    <import addon="xbmc.gui" version="5.3.0"/>
+    <import addon="script.favourites" version="4.0.4"/>
+  </requires>
+  <extension
+    point="xbmc.gui.skin" defaultthemename="Textures.xbt" debugging="false">
+    <res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Apple TV style skin</summary>
+    <description lang="en">Easy to use, fast to navigate and flexible user interface. If you believe that sometimes less means more, you might feel right at home with Quartz. Skin graphics by CloudDweller and Pecinko.</description>
+  </extension>
+</addon>
+</addons>
